@@ -129,15 +129,6 @@ public class SopaDeLetrasRestController {
 			}
 		}
 
-		// Busqueda en diagonal
-//		for (int i = 0; i <= rows - len; i++) {
-//			for (int j = 0; j <= cols - len; j++) {
-//				if (coincidencia(matrix, i, j, 1, 1, word)) {
-//					return new InfromacionBusqueda(true, i, j);
-//				}
-//			}
-//		}
-
 		return new InfromacionBusqueda(false, -1, -1);
 	}
 
